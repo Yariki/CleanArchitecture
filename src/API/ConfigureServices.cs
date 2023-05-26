@@ -21,10 +21,6 @@ public static class ConfigureServices
         services.AddHealthChecks()
             .AddDbContextCheck<ApplicationDbContext>();
 
-        services.AddControllersWithViews();
-
-        services.AddRazorPages();
-
         services.AddScoped<FluentValidationSchemaProcessor>(provider =>
         {
             var validationRules = provider.GetService<IEnumerable<FluentValidationRule>>();
