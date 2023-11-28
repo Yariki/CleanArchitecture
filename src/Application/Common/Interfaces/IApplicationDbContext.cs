@@ -6,13 +6,11 @@ namespace CleanArchitecture.Application.Common.Interfaces;
 
 public interface IApplicationDbContext
 {
-    DbSet<TodoList> TodoLists { get; }
+    DbSet<SampleItem> SampleItems { get; }
 
-    DbSet<TodoItem> TodoItems { get; }
+    DbSet<TEntity> Set<TEntity>() where TEntity : class;
 
-    DbSet<TEntity> Set<TEntity>() where TEntity: class;
-
-    EntityEntry<TEntity> Entry<TEntity>(TEntity entity)  where TEntity: class;
+    EntityEntry<TEntity> Entry<TEntity>(TEntity entity) where TEntity : class;
 
     Task<int> SaveChangesAsync(CancellationToken cancellationToken);
 }

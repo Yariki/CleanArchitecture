@@ -3,7 +3,6 @@
   "author": "JasonTaylorDev",
   "classifications": [
     "Web",
-    "SPA",
     "ASP.NET",
     "Clean Architecture"
   ],
@@ -11,7 +10,7 @@
   "description":  "This is a test.",
   "identity": "Clean.Architecture.Solution.CSharp",
   "groupIdentity": "Clean.Architecture.Solution",
-  "shortName": "ca-sln",
+  "shortName": "ca-sln-2",
   "tags": {
     "language": "C#",
     "type": "project"
