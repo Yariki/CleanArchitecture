@@ -5,7 +5,7 @@ using NUnit.Framework;
 
 namespace CleanArchitecture.Domain.UnitTests.ValueObjects;
 
-public class ColourTests
+public class SampleValueTests
 {
     [Test]
     public void ShouldReturnCorrectColourCode()
