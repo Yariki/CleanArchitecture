@@ -2,7 +2,7 @@
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace CleanArchitecture.Application.TodoItems.EventHandlers;
+namespace CleanArchitecture.Application.SampleItems.EventHandlers;
 
 public class SampleItemCompletedEventHandler : INotificationHandler<SampleItemCompletedEvent>
 {

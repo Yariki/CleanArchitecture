@@ -1,10 +1,10 @@
 ﻿using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Application.TodoItems.Commands.CreateTodoItem;
+using CleanArchitecture.Application.SampleItems.Commands.CreateSampleItem;
 using CleanArchitecture.Domain.Entities;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace CleanArchitecture.Application.IntegrationTests.TodoItems.Commands;
+namespace CleanArchitecture.Application.IntegrationTests.SampleItems.Commands;
 
 using static Testing;
 

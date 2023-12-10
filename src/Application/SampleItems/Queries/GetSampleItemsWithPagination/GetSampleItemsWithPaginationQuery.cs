@@ -5,7 +5,7 @@ using CleanArchitecture.Application.Common.Mappings;
 using CleanArchitecture.Application.Common.Models;
 using MediatR;
 
-namespace CleanArchitecture.Application.TodoItems.Queries.GetTodoItemsWithPagination;
+namespace CleanArchitecture.Application.SampleItems.Queries.GetSampleItemsWithPagination;
 
 public record GetSampleItemsWithPaginationQuery : IRequest<PaginatedList<SampleItemBriefDto>>
 {

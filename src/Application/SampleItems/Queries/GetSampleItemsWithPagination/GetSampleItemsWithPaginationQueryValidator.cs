@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace CleanArchitecture.Application.TodoItems.Queries.GetTodoItemsWithPagination;
+namespace CleanArchitecture.Application.SampleItems.Queries.GetSampleItemsWithPagination;
 
 public class GetSampleItemsWithPaginationQueryValidator : AbstractValidator<GetSampleItemsWithPaginationQuery>
 {

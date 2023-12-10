@@ -36,7 +36,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\API\API.csproj" />
+      <ProjectReference Include="..\..\src\API\CleanArchitecture.API.csproj" />
     </ItemGroup>
 
 </Project>

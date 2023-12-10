@@ -2,7 +2,7 @@
 using CleanArchitecture.Domain.Entities;
 using MediatR;
 
-namespace CleanArchitecture.Application.TodoItems.Commands.CreateTodoItem;
+namespace CleanArchitecture.Application.SampleItems.Commands.CreateSampleItem;
 
 public record CreateSampleItemCommand : IRequest<int>
 {

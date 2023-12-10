@@ -1,6 +1,6 @@
 ﻿using CleanArchitecture.Application.Common.Behaviours;
 using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Application.TodoItems.Commands.CreateTodoItem;
+using CleanArchitecture.Application.SampleItems.Commands.CreateSampleItem;
 using Microsoft.Extensions.Logging;
 using Moq;
 using NUnit.Framework;

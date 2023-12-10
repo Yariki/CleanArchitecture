@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace CleanArchitecture.Application.TodoItems.Commands.CreateTodoItem;
+namespace CleanArchitecture.Application.SampleItems.Commands.CreateSampleItem;
 
 public class CreateSampleItemCommandValidator : AbstractValidator<CreateSampleItemCommand>
 {
